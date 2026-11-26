@@ -1,0 +1,6 @@
+{
+  "name": "AI Scene & Prompt Architect",
+  "description": "Chunk Hindi/Hinglish scripts into scenes and generate highly specific, production-ready video prompts for each scene using an LLM API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

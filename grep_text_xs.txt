@@ -1,0 +1,57 @@
+299:            <ul className="text-xs text-emerald-800/80 dark:text-emerald-200/80 text-left space-y-2.5 py-1">
+304:            <div className="w-full bg-emerald-500/10 dark:bg-emerald-500/20 text-emerald-700 dark:text-emerald-400 text-xs font-bold py-2.5 rounded-lg mt-2 transition-all flex items-center justify-center gap-2">
+358:                            <h2 className="font-semibold text-slate-300 dark:text-white">Paste Your Script <span className="text-sky-600 dark:text-sky-400 font-normal text-xs ml-1 hidden sm:inline">(Hindi/Hinglish)</span></h2>
+367:                              className="bg-white dark:bg-[#121214] border border-slate-200 dark:border-[#27272A] text-slate-700 dark:text-slate-300 text-xs font-semibold rounded-lg px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-sky-500"
+383:                              className="bg-white dark:bg-[#121214] border border-slate-200 dark:border-[#27272A] text-slate-700 dark:text-slate-300 text-xs font-semibold rounded-lg px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-sky-500"
+397:                              className="bg-white dark:bg-[#121214] border border-slate-200 dark:border-[#27272A] text-slate-700 dark:text-slate-300 text-xs font-semibold rounded-lg px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-sky-500"
+411:                              className="bg-white dark:bg-[#121214] border border-slate-200 dark:border-[#27272A] text-slate-700 dark:text-slate-300 text-xs font-semibold rounded-lg px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-sky-500"
+433:                          {error && <span className="text-xs text-red-500 dark:text-red-400 font-medium truncate max-w-[200px]">⚠️ {error}</span>}
+569:                               <span className="text-xs font-semibold text-slate-700 dark:text-slate-300">{scene.emotion || "Neutral"}</span>
+573:                               <span className="text-xs font-semibold text-slate-700 dark:text-slate-300">{scene.camera || "Static View"}</span>
+577:                               <span className="text-xs font-semibold text-slate-700 dark:text-slate-300">{scene.lighting || "Soft lighting"}</span>
+588:                                        <span className="text-xs text-indigo-900 dark:text-indigo-300 font-medium leading-relaxed">{scene.directorNotes.emotionReason}</span>
+592:                                        <span className="text-xs text-indigo-900 dark:text-indigo-300 font-medium leading-relaxed">{scene.directorNotes.cameraReason}</span>
+596:                                        <span className="text-xs text-indigo-900 dark:text-indigo-300 font-medium leading-relaxed">{scene.directorNotes.lightingReason}</span>
+622:                                        <span className="text-white text-xs font-bold flex items-center gap-2 bg-black/50 px-3 py-1.5 rounded-full"><Maximize2 className="w-3.5 h-3.5"/> Expand</span>
+627:                                      <button onClick={() => handleGenerateImage(idx, scene.prompt)} className="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 dark:bg-[#27272A] hover:bg-slate-200 dark:hover:bg-[#27272A] text-slate-700 dark:text-slate-300 text-xs font-bold rounded-lg transition-colors cursor-pointer border border-slate-200 dark:border-transparent">
+739:                               <span className="text-xs font-semibold bg-white dark:bg-[#0F0F12] px-2 py-1 rounded text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-[#27272A] shadow-sm">{em}</span>
+747:                         <span className="text-xs font-bold text-slate-600 dark:text-slate-400">Narrative Strength</span>
+761:                          <p className="text-xs font-medium text-slate-800 dark:text-slate-200 mb-2">{test.potentialIssue}</p>
+803:                             <ul className="list-disc pl-4 space-y-1 text-xs text-slate-600 dark:text-slate-300">
+824:                    <div className="space-y-2.5 text-xs flex-1">
+949:                  }} className="text-slate-500 hover:text-sky-600 dark:hover:text-sky-400 flex items-center gap-1.5 text-xs font-bold transition-colors cursor-pointer bg-slate-100/50 dark:bg-white/5 border border-slate-200 dark:border-white/10 px-2.5 py-1.5 rounded-lg">
+964:                     <span className="text-xs text-slate-500 font-medium">Generating High-Res Visual...</span>
+988:                     <h3 className="text-xs uppercase font-bold text-slate-500 dark:text-slate-400 border-b border-slate-200 dark:border-[#27272A] pb-2 mb-1">Production Settings</h3>
+1005:                    <h3 className="text-xs uppercase font-bold text-slate-500 dark:text-slate-400 mb-3 flex items-center justify-between">
+1109:               <p className="text-xs text-slate-500 mt-2">{proj.scenes?.length || 0} Scenes Generated</p>
+1137:        <button onClick={() => window.print()} className="px-4 py-2 bg-gradient-to-r from-sky-500 to-cyan-500 hover:from-sky-400 hover:to-cyan-400 text-white text-xs font-bold rounded-lg transition-all cursor-pointer shadow-lg shadow-sky-900/20 flex items-center gap-2">
+1190:                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">Narrative Arc Type</p>
+1194:                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">Est. Viewer Retention</p>
+1205:                    <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">Pacing Analysis</p>
+1210:                  <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-3">Emotional Progression Curve</p>
+1222:                    <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-4">Narrative Heatmap</p>
+1228:                              <span className="w-24 text-slate-700 dark:text-slate-300 font-semibold text-xs tracking-wider uppercase truncate" title={point.emotion}>{point.emotion}</span>
+1248:                     <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-3">Core DNA</p>
+1256:                              <p className="text-xs font-medium text-slate-800 dark:text-slate-200 leading-relaxed">{character.evolution.beginning}</p>
+1260:                              <p className="text-xs font-medium text-slate-800 dark:text-slate-200 leading-relaxed">{character.evolution.middle}</p>
+1264:                              <p className="text-xs font-medium text-slate-800 dark:text-slate-200 leading-relaxed">{character.evolution.end}</p>
+1271:                           <span className="text-xs font-semibold text-slate-500">DNA Checksum Pass Rate</span>
+1279:                     <p className="text-xs font-bold text-rose-600 dark:text-rose-500 uppercase tracking-widest mb-3 flex items-center gap-1.5 print:text-rose-700"><AlertTriangle className="w-3.5 h-3.5"/> Drift Corrections</p>
+1284:                           <p className="text-rose-600 dark:text-rose-400/80 text-xs mt-0.5 print:text-rose-700">{drift.issue} → Auto-fixed</p>
+1301:                      <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Scene {test.sceneNumber} Risk</p>
+1303:                      <p className="text-xs text-emerald-600 dark:text-emerald-500 flex items-start gap-1.5 print:text-emerald-700">
+1345:                       <div className="flex justify-between items-center text-xs">
+1349:                       <div className="flex justify-between items-center text-xs">
+1353:                       <div className="flex justify-between items-center text-xs">
+1422:                  <p className="text-xs text-slate-500 print:text-slate-600">{scene.sceneBreakdown}</p>
+1430:                       <p className="text-xs text-emerald-700 dark:text-emerald-500/80 mb-3 print:text-emerald-700">{scene.winnerExplanation || 'Selected for superior cinematic framing.'}</p>
+1437:                  <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3 print:text-slate-500">All Contenders</h4>
+1504:              <span className="text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400">All Time</span>
+1515:                        <p className="text-[11px] sm:text-xs text-slate-500 mt-0.5">{proj.scenes?.length || 0} Scenes • {proj.createdAt ? new Date(proj.createdAt.seconds * 1000).toLocaleDateString() : 'Just now'}</p>
+1518:                   <button className="px-3 py-1.5 border border-slate-200 dark:border-[#27272A] text-slate-600 dark:text-slate-300 rounded-lg text-xs font-semibold group-hover:bg-sky-600 group-hover:text-white group-hover:border-transparent min-w-[70px] text-center transition-colors">Load</button>
+1557:               <span className="inline-block px-3 py-1 bg-sky-100 dark:bg-sky-600/20 text-sky-700 dark:text-sky-400 text-xs font-bold rounded-lg border border-sky-200 dark:border-sky-500/20">
+1568:             <h4 className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-1">Email</h4>
+1572:             <h4 className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-1">Status</h4>
+1589:        <button onClick={handleResetSettings} className="px-4 py-2 border border-slate-200 dark:border-[#27272A] bg-white dark:bg-[#18181B] text-slate-600 dark:text-slate-300 text-xs font-bold rounded-lg hover:bg-slate-50 dark:hover:bg-slate-300 transition-colors cursor-pointer">
+1609:                 <button onClick={() => setTheme('light')} className={`px-3 py-1.5 text-xs font-bold rounded flex items-center justify-center transition-colors cursor-pointer ${theme === 'light' ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}>Light</button>
+1610:                 <button onClick={() => setTheme('dark')} className={`px-3 py-1.5 text-xs font-bold rounded flex items-center justify-center transition-colors cursor-pointer ${theme === 'dark' ? 'bg-[#18181B] text-white shadow-sm border border-[#27272A]' : 'text-slate-400 hover:text-slate-200'}`}>Dark</button>

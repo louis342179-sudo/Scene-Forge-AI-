@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-page: var(--c-page);
+  --color-panel: var(--c-panel);
+  --color-panel-header: var(--c-panel-header);
+  --color-border: var(--c-border);
+  --color-text-main: var(--c-text-main);
+  --color-text-muted: var(--c-text-muted);
+  --color-text-strong: var(--c-text-strong);
+  --color-bg-hover: var(--c-bg-hover);
+}
+
+@layer base {
+  :root {
+    --c-page: #f8fafc; 
+    --c-panel: #ffffff;
+    --c-panel-header: #f1f5f9; 
+    --c-border: #e2e8f0; 
+    --c-text-main: #334155; 
+    --c-text-muted: #64748b; 
+    --c-text-strong: #0f172a; 
+    --c-bg-hover: #e2e8f0;
+  }
+  .dark {
+    --c-page: #0B0B14;
+    --c-panel: #13141E;
+    --c-panel-header: #191A27;
+    --c-border: #2A2B3A;
+    --c-text-main: #cbd5e1;
+    --c-text-muted: #94a3b8; 
+    --c-text-strong: #ffffff; 
+    --c-bg-hover: #1A1B28;
+  }
+}
+
+@layer utilities {
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+
